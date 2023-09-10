@@ -54,7 +54,88 @@ ul a:hover {
     color: var(--logo-second-half);
 }
 
+@media (max-width: 768px) {
+    .main-head-box {
+        width: 100% !important;
+    }
+}
 
+.navbar-toggler:focus {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.section-headers{
+    font-size: 48px;
+}
+.my-font2{
+    font-size: 36px;
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+}
+.my-font1{
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1199px) {
+    .my-font1 {
+        font-size: 20px !important;
+    }
+    .section-headers{
+        font-size: 36px;
+    }
+    .my-font2{
+        font-size: 24px;
+    }
+    /* .main-h1{
+        font-size: 40px !important;
+    } */
+}
+
+@media (max-width: 991px) {
+    .my-font1 {
+        font-size: 16px !important;
+    }
+    .section-headers{
+        font-size: 30px;
+    }
+    .my-font2{
+        font-size: 18px;
+    }
+    .main-h1{
+        font-size: 36px !important;
+    }
+}
+
+@media (max-width: 766px) {
+    .my-font1 {
+        font-size: 14px !important;
+    }
+    .my-font2{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 574px){
+    .my-font2{
+        width: 100% !important;
+    }
+    .main-h1{
+        font-size: 24px !important;
+    }
+} 
 
 
 

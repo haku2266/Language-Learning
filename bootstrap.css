@@ -12010,7 +12010,7 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) {x
   .fs-1 {
     font-size: 2.5rem !important;
   }
