@@ -13,6 +13,7 @@
     font-family: var(--all-font-family) !important;
     list-style: none !important;
     text-decoration: none !important;
+    box-sizing: border-box;
 }
 /* changed properties */
 .btn-outline-dark {
@@ -86,13 +87,20 @@ ul a:hover {
 
 }
 
+
+.cart-speaking .cart-img-box{
+    background-image: url(/img/skills-speaking.png);
+    
+}
+
 .reading{
     background-position: left;    
     background-image: url(/img/skills-reading.png);
 }
 
-
-
+.listening-box .cart-img-box{
+    background-image: url(/img/skill-listening.png);
+}
 
 
 
@@ -132,11 +140,21 @@ ul a:hover {
 }
 
 @media (max-width: 766px) {
+    .card-body p{
+        font-size: 12px !important;
+    }
     .my-font1 {
         font-size: 14px !important;
     }
     .my-font2{
         font-size: 16px;
+    }
+    .card{
+        height: 600px !important;
+    }
+    .cart-img-box{
+        background-position: center;    
+    
     }
 
 }
