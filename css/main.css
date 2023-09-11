@@ -26,12 +26,12 @@
 .btn-dark{
     --bs-btn-bg: rgba(38, 50, 56, 1) !important;
     --bs-btn-border-color: rgba(38, 50, 56, 1) !important;
-    --bs-btn-hover-bg: rgb(31, 40, 45) !important;
+    --bs-btn-hover-bg: rgb(26, 34, 38) !important;
     --bs-btn-hover-border-color: rgb(35, 45, 51) !important;  
 }
 
 .bg-body{
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(245, 245, 245, 1) !important;
 }
 
 .text-dark {
@@ -77,11 +77,19 @@ ul a:hover {
     font-size: 24px;
 }
 
+.cart-img-box{
+    min-height: 12rem;
+    background-image: url(/img/skills-writing.png);
+    background-repeat: no-repeat;
+    background-position: right;    
+    background-size: contain;
 
+}
 
-
-
-
+.reading{
+    background-position: left;    
+    background-image: url(/img/skills-reading.png);
+}
 
 
 
@@ -103,6 +111,11 @@ ul a:hover {
     } */
 }
 
+@media (min-width: 767px){
+    .speaking-cart{
+        height: 100% !important;
+    }
+}
 @media (max-width: 991px) {
     .my-font1 {
         font-size: 16px !important;
