@@ -101,6 +101,13 @@ ul a:hover {
     background-image: url(/img/skill-listening.png);
 }
 
+.price-card{
+    height: 550px !important;
+}
+.pc-f img{ 
+    width: 70%;
+}
+
 
 
 @media (max-width: 1199px) {
@@ -139,6 +146,9 @@ ul a:hover {
 }
 
 @media (max-width: 766px) {
+    .pc-f img{
+        width: 50% !important;
+    }
     .casual-p{
         font-size: 12px !important;
     }
@@ -154,6 +164,9 @@ ul a:hover {
     .cart-img-box{
         background-position: center;    
     
+    }
+    .price-card{
+        height: auto !important;
     }
 
 }
