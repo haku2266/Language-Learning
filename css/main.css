@@ -140,7 +140,7 @@ ul a:hover {
 }
 
 @media (max-width: 766px) {
-    .card-body p{
+    .casual-p{
         font-size: 12px !important;
     }
     .my-font1 {
