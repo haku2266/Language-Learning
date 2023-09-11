@@ -118,7 +118,7 @@ ul a:hover {
     } */
 }
 
-@media (min-width: 767px){
+@media (min-width: 768px){
     .speaking-cart{
         height: 100% !important;
     }
