@@ -13,7 +13,6 @@
     font-family: var(--all-font-family) !important;
     list-style: none !important;
     text-decoration: none !important;
-    box-sizing: border-box;
 }
 /* changed properties */
 .btn-outline-dark {
