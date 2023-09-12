@@ -1,20 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-:root {
-    --button-card-name-price-color: rgba(38, 50, 56, 1);
-    --cart-bg-gray: rgba(245, 245, 245, 1);
-    --h1-color: #000;
-    --regular-paragraph-color: rgba(143, 149, 165, 1);
-    --number-color: rgba(42, 50, 70, 1);
-    --pricing-date-color: rgba(84, 98, 105, 1);
-    --all-font-family: 'Poppins', sans-serif;
-    --logo-second-half: rgba(147, 147, 147, 1);
-}
 *{
-    font-family: var(--all-font-family) !important;
+    font-family: 'Poppins', sans-serif !important;
     list-style: none !important;
     text-decoration: none !important;
 }
-/* changed properties */
+
 .btn-outline-dark {
     --bs-btn-color: rgba(38, 50, 56, 1) !important;
     --bs-btn-bg: #fff !important;
@@ -51,7 +41,7 @@ ul a:hover {
 }
 
 .logo-second{
-    color: var(--logo-second-half);
+    color: rgba(147, 147, 147, 1);
 }
 
 @media (max-width: 768px) {
