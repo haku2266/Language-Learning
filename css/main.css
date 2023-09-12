@@ -70,8 +70,7 @@ ul a:hover {
 }
 .my-font2{
     font-size: 36px;
-    padding-left: 6rem !important;
-    padding-right: 6rem !important;
+    
 }
 .my-font1{
     font-size: 24px;
@@ -85,7 +84,10 @@ ul a:hover {
     background-size: contain;
 
 }
-
+.main-head-text{
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+}
 
 .cart-speaking .cart-img-box{
     background-image: url(/img/skills-speaking.png);
@@ -172,7 +174,7 @@ ul a:hover {
 }
 
 @media (max-width: 574px){
-    .my-font2{
+    .main-head-text{
         width: 100% !important;
     }
     .main-h1{
