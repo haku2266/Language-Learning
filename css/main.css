@@ -4,173 +4,87 @@
     list-style: none !important;
     text-decoration: none !important;
 }
-
-.btn-outline-dark {
-    --bs-btn-color: rgba(38, 50, 56, 1) !important;
-    --bs-btn-bg: #fff !important;
-    --bs-btn-border-color: rgba(38, 50, 56, 1) !important;
-    --bs-btn-hover-bg: rgba(38, 50, 56, 1) !important;
-    --bs-btn-hover-border-color: rgba(38, 50, 56, 1) !important;
-}
-
-.btn-dark{
-    --bs-btn-bg: rgba(38, 50, 56, 1) !important;
-    --bs-btn-border-color: rgba(38, 50, 56, 1) !important;
-    --bs-btn-hover-bg: rgb(26, 34, 38) !important;
-    --bs-btn-hover-border-color: rgb(35, 45, 51) !important;  
-}
-
-.bg-body{
-    background-color: rgba(245, 245, 245, 1) !important;
-}
-
-.text-dark {
-    color: rgba(38, 50, 56, 1) !important;
-}
-
-.text-secondary {
-    color: rgba(245, 245, 245, 1) !important;
-}
-
-.text-secondary-emphasis{
-    color: rgba(143, 149, 165, 1) !important;
-}
-/* changed properties */
 ul a:hover {
     text-decoration: underline !important;
 }
-
 .logo-second{
     color: rgba(147, 147, 147, 1);
 }
-
 @media (max-width: 768px) {
     .main-head-box {
         width: 100% !important;
     }
 }
-
 .navbar-toggler:focus {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
 .section-headers{
-    font-size: 48px;
-}
+    font-size: 48px;}
 .my-font2{
-    font-size: 36px;
-    
-}
+    font-size: 36px;}
 .my-font1{
-    font-size: 24px;
-}
-
+    font-size: 24px;}
 .cart-img-box{
     min-height: 12rem;
     background-image: url(/img/skills-writing.png);
     background-repeat: no-repeat;
     background-position: right;    
-    background-size: contain;
-
-}
+    background-size: contain;}
 .main-head-text{
     padding-left: 6rem !important;
-    padding-right: 6rem !important;
-}
-
+    padding-right: 6rem !important;}
 .cart-speaking .cart-img-box{
-    background-image: url(/img/skills-speaking.png);
-    
-}
-
+    background-image: url(/img/skills-speaking.png);}
 .reading{
     background-position: left;    
-    background-image: url(/img/skills-reading.png);
-}
-
+    background-image: url(/img/skills-reading.png);}
 .listening-box .cart-img-box{
-    background-image: url(/img/skill-listening.png);
-}
-
+    background-image: url(/img/skill-listening.png);}
 .price-card{
-    height: 550px !important;
-}
+    height: 550px !important;}
 .pc-f img{ 
-    width: 70%;
-}
-
-
-
+    width: 70%;}
 @media (max-width: 1199px) {
     .my-font1 {
-        font-size: 20px !important;
-    }
+        font-size: 20px !important;}
     .section-headers{
-        font-size: 36px;
-    }
+        font-size: 36px;}
     .my-font2{
-        font-size: 24px;
-    }
-    /* .main-h1{
-        font-size: 40px !important;
-    } */
+        font-size: 24px;}
 }
-
 @media (min-width: 768px){
     .speaking-cart{
-        height: 100% !important;
-    }
+        height: 100% !important;}
 }
 @media (max-width: 991px) {
     .my-font1 {
-        font-size: 16px !important;
-    }
+        font-size: 16px !important;}
     .section-headers{
-        font-size: 30px;
-    }
+        font-size: 30px;}
     .my-font2{
-        font-size: 18px;
-    }
+        font-size: 18px;}
     .main-h1{
-        font-size: 36px !important;
-    }
+        font-size: 36px !important;}
 }
-
 @media (max-width: 766px) {
     .pc-f img{
-        width: 50% !important;
-    }
+        width: 50% !important;}
     .casual-p{
-        font-size: 12px !important;
-    }
+        font-size: 12px !important;}
     .my-font1 {
-        font-size: 14px !important;
-    }
+        font-size: 14px !important;}
     .my-font2{
-        font-size: 16px;
-    }
+        font-size: 16px;}
     .card{
-        height: 600px !important;
-    }
+        height: 600px !important;}
     .cart-img-box{
-        background-position: center;    
-    
-    }
+        background-position: center;}
     .price-card{
-        height: auto !important;
-    }
-
-}
-
+        height: auto !important;}}
 @media (max-width: 574px){
     .main-head-text{
-        width: 100% !important;
-    }
+        width: 100% !important;}
     .main-h1{
-        font-size: 24px !important;
-    }
-} 
+        font-size: 24px !important;}} 
 
 
 
