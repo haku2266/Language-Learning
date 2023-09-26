@@ -84,7 +84,9 @@ ul a:hover {
     .main-head-text{
         width: 100% !important;}
     .main-h1{
-        font-size: 24px !important;}} 
+        font-size: 24px !important;}}
 
-
-
+::selection {
+    color: rgb(255, 255, 255);
+    background: royalblue
+    }
